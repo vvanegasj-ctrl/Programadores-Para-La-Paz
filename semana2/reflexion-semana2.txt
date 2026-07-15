@@ -1,0 +1,5 @@
+Conocer el uso de la terminal para navegar y organizar archivos es fundamental para todo desarrollador de software puesto a que es necesaria por razones de eficiencia y control.
+En primer lugar, la terminal permite interactuar directamente con el sistema operativo sin depender de interfaces graficas, lo que agiliza las tareas repetitivas como crear, mover o buscar carpetas u archivos, adicionalmente, la mayoria de herramientas profesionales de desarrollo, servidores en la nube y sistemas de control de versiones Git se gestionan de forma nativa a traves de lineas de comandos.
+Por lo tanto, dominar este entorno no solo mejora la velocidad de trabajo, sino que tambien facilita la automatización de procesos mediante scripts y tareas programadas.
+Ademas, un proyecto de software suele volverse masivo y complejo; por ende, mantener una estructura ordenanda desde la terminal previene errores de ruta y facilita la colaboración en equipo.
+En resumen, la terminal deja de ser un simple canal de texto para convertirse en el centro de control que le permite al desarrollador comprender a fondo como se organiza y ejectura su código en el sistema.
