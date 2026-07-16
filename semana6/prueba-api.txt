@@ -1,0 +1,13 @@
+Al enviar una petición POST a la dirección http://localhost:3000/registro con el cuerpo JSON:
+{
+  "nombre": "Victor",
+  "mensaje": "Hola comunidad"
+}
+
+El servidor procesa la petición de manera correcta gracias al uso del middleware express.json(), extrayendo las propiedades del cuerpo de la solicitud ("req.body"). Finalmente, el servidor retorna una respuesta en formato JSON con la siguiente estructura:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Victor",
+  "mensaje": "Hola comunidad"
+}
