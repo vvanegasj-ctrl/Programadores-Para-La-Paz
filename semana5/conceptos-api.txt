@@ -1,0 +1,5 @@
+1. ¿Qué hace esta ruta?
+Respuesta: Esta ruta permite recibir peticiones de tipo POST en la dirección o reporte. A diferencia de GET (que solo pide datos), esta ruta lee la información enviada dentro del cuerpo del mensaje (req.body.mensaje) y responde con un objeto JSON de confirmación que incluye el estado de la transacción y una copia del mensaje recibido.
+
+2. ¿Para qué podría servir en una aplicación comunitaria?
+Respuesta: Podría utilizarse para que los miembros de una comunidad reporten incidencias locales en tiempo real, como daños en la infraestructura pública, alertas de seguridad, o solicitudes de asistencia. Los usuarios enviarían la información desde un formulario y la API procesaría y almacenaría el reporte de forma automática.

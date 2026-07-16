@@ -1,0 +1,8 @@
+Ruta: http://localhost:3000
+Explicación: El navegador realiza una petición GET a la raíz del servidor. Este responde enviando un texto plano que dice "Servidor activo" directamente en la pantalla.
+
+Ruta: http://localhost:3000/saludo
+Explicación: El servidor procesa la petición en el endpoint específico "/saludo" y retorna el mensaje "Hola comunidad".
+
+Ruta: http://localhost:3000/mensaje/juan
+Explicación: El servidor detecta que el parámetro variable ":nombre" en la URL corresponde a "victor", lo extrae mediante req.params y responde de forma dinámica con el texto "Hola victor".
