@@ -1,0 +1,3 @@
+Al realizar una consulta de tipo GET a la ruta http://localhost:3000/reportes después de haber realizado peticiones POST, el servidor retorna la lista completa de objetos almacenados en el array "reportes" en formato JSON.
+
+Cada objeto dentro del array devuelto contiene un identificador único numérico ("id") autoincrementable generado en el servidor, acompañado de las propiedades de "tipo" y "descripcion" que fueron enviadas previamente en el cuerpo del request. Si no se ha registrado ningún reporte antes de realizar la consulta, la API responderá con un array vacío "[]".
