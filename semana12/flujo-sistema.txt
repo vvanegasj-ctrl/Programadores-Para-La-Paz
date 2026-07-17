@@ -1,0 +1,5 @@
+1. Creación de la Causa: Un ciudadano autenticado ingresa a la plataforma web y registra una nueva causa comunitaria detallando la problemática y la propuesta de solución.
+2. Almacenamiento en Base de Datos: El backend procesa la solicitud y guarda de forma estructurada los datos de la causa, asignándole un identificador único y una fecha de registro.
+3. Recolección de Apoyos: Otros vecinos de la comunidad acceden a la plataforma, visualizan la causa activa y hacen clic en el botón para sumar su apoyo digital.
+4. Conteo y Consolidación: El sistema actualiza en tiempo real el contador de firmas y, al alcanzar el umbral mínimo o dar cierre a la campaña, procesa los respaldos totales.
+5. Generación de Petición Formal (PDF): Con un solo clic, el backend integra la información de la causa y el listado de respaldos colectivos para generar automáticamente un documento PDF formal, listo para ser descargado y radicado ante las entidades correspondientes.

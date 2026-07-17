@@ -1,0 +1,9 @@
+1. ¿Qué evento activa la automatización?
+La automatización se activa mediante un nodo Webhook en n8n que detecta el momento exacto en que una causa alcanza la meta establecida de firmas (apoyos) registradas en la base de datos.
+
+2. ¿Qué mensaje se envía?
+Se envía una notificación de éxito al canal comunitario de Telegram:
+"¡Meta lograda! La causa comunitaria '[Título de la causa]' ha alcanzado el 100% de los apoyos requeridos. El documento PDF de petición formal ya ha sido generado automáticamente y se encuentra listo para su descarga y radicación en la plataforma."
+
+3. ¿Qué información no debe enviarse por seguridad?
+Por seguridad y protección de datos de los participantes, no se enviarán nombres de usuario, correos electrónicos, números de identificación, direcciones físicas, contraseñas, tokens de conexión, ni ningún dato que permita identificar de manera directa a los ciudadanos que respaldaron la causa.

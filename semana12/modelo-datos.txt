@@ -1,0 +1,22 @@
+Entidad: Causa
+
+Campos:
+- id: identificador único (clave primaria).
+- titulo: nombre descriptivo de la petición comunitaria.
+- descripcion: texto detallado que justifica la petición y sus objetivos.
+- fecha: día y hora en que fue publicada la iniciativa.
+
+Propósito: 
+Esta entidad sirve para almacenar de manera organizada toda la información pública sobre las problemáticas colectivas propuestas por la ciudadanía, permitiendo que la comunidad las visualice y evalúe.
+
+
+Entidad: Apoyo
+
+Campos:
+- id: identificador único de la firma de respaldo (clave primaria).
+- causa_id: relación directa con la causa que se está respaldando (clave foránea).
+- nombre: nombre ficticio, seudónimo o identificador no sensible del firmante para validación.
+- fecha: momento exacto en el que el usuario registró su apoyo.
+
+Propósito: 
+Su función es registrar la trazabilidad de los respaldos digitales acumulados por cada causa, asegurando que se puedan contabilizar con precisión sin almacenar información sensible que ponga en riesgo la privacidad de los participantes.
