@@ -1,0 +1,5 @@
+El login permite identificar de forma única a un usuario registrado mediante sus credenciales antes de otorgarle acceso a funciones de creación o edición dentro de la plataforma.
+
+Algunas rutas deben estar protegidas, como la creación de una causa o la administración de reportes, para asegurar que solo los usuarios verificados y autorizados puedan modificar la información pública, evitando el spam o sabotaje de datos.
+
+Por motivos de privacidad y cumplimiento legal, no se deben exponer públicamente contraseñas, correos electrónicos personales, números de contacto, documentos de identidad, tokens de seguridad, ni claves de API en la interfaz de la plataforma.

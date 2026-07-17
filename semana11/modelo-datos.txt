@@ -1,0 +1,24 @@
+Entidad: Causa
+
+Campos principales:
+- id: identificador único (autoincremental o UUID).
+- titulo: título descriptivo de la iniciativa comunitaria.
+- descripcion: explicación detallada de las necesidades y objetivos de la causa.
+- categoria: clasificación del problema (ej. infraestructura, seguridad, medio ambiente).
+- fecha_creacion: fecha y hora de registro de la iniciativa.
+- usuario_creador_id: referencia al usuario que registró la causa.
+
+Propósito:
+Guardar de forma estructurada las causas comunitarias y de veeduría que serán públicas y visibles para todos en la plataforma.
+
+
+Entidad: Apoyo
+
+Campos principales:
+- id: identificador único del voto o firma digital.
+- causa_id: referencia o clave foránea vinculada a la entidad Causa.
+- usuario_id: identificador del usuario que otorga su respaldo.
+- fecha_apoyo: registro de cuándo se realizó la acción de apoyo.
+
+Propósito:
+Registrar de manera organizada y transparente el apoyo o respaldo que recibe cada causa comunitaria, evitando duplicados y permitiendo la trazabilidad y métricas de participación ciudadana.

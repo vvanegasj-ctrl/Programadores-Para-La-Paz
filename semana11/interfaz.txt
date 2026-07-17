@@ -1,0 +1,9 @@
+La interfaz gráfica de nuestra plataforma de participación se diseñará con un enfoque simple, accesible y seguro:
+
+1. Formulario para crear una causa: Una sección protegida bajo autenticación que contendrá campos limpios para ingresar el título, una descripción clara, la categoría y la fecha de la problemática. Contará con validaciones básicas para evitar campos vacíos.
+
+2. Vista de causas disponibles: Un feed o listado público donde cualquier ciudadano, autenticado o no, podrá visualizar de forma lineal o en cuadrícula todas las causas activas organizadas por fecha de creación o volumen de apoyos.
+
+3. Contador de apoyos y Botón para apoyar una causa: Cada tarjeta de causa en el listado mostrará un contador numérico visible con el total de respaldos acumulados. Si el usuario ha iniciado sesión, podrá hacer clic en el botón "Apoyar causa" para sumar su respaldo de forma inmediata y en tiempo real.
+
+4. Privacidad de la interfaz: La interfaz mantendrá la simplicidad visual y bajo ninguna circunstancia mostrará información privada de los usuarios firmantes, garantizando una interacción transparente pero segura para toda la comunidad.
