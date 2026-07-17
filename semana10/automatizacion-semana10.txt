@@ -1,0 +1,16 @@
+1. ¿Qué evento activa el flujo?
+El flujo en n8n se activa mediante un nodo Webhook que detecta cuando un ciudadano registra un "nuevo reporte de incidencia" de forma exitosa en la base de datos de nuestra plataforma.
+
+2. ¿Qué mensaje se enviaría a Telegram?
+Se enviará un mensaje estructurado y amigable al canal de coordinación:
+"¡Atención equipo! Se ha registrado un nuevo reporte comunitario.
+Sector/Comuna del reporte: [Zona del reporte]
+Categoría: [Tipo de incidencia]
+Por favor, ingresen al panel de administración para revisar y validar los detalles."
+
+3. ¿Qué información NO debería enviarse por seguridad?
+Por motivos de privacidad y seguridad digital, bajo ninguna circunstancia se enviará:
+- Nombres y apellidos completos del denunciante.
+- Números de teléfono o correos electrónicos personales.
+- Documentos de identidad o datos de ubicación exacta domiciliaria.
+- Direcciones IP o credenciales de acceso al sistema.

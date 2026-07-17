@@ -1,0 +1,11 @@
+[PRIORIDAD ALTA]
+1. Como ciudadano, quiero reportar una incidencia comunitaria en el mapa para visibilizar problemas locales ante las autoridades.
+
+[PRIORIDAD MEDIA]
+2. Como coordinador del proyecto, quiero recibir una notificación automática en Telegram cada vez que se registre un nuevo reporte para revisarlo rápidamente.
+
+[PRIORIDAD MEDIA]
+3. Como vecino de la comunidad, quiero consultar la lista de reportes activos en mi zona para estar informado sobre el estado de mi barrio.
+
+[PRIORIDAD BAJA]
+4. Como administrador, quiero exportar un documento colectivo en formato borrador (PDF) con todos los respaldos y apoyos de una causa para radicarlo formalmente.

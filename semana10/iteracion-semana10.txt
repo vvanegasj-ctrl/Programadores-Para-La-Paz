@@ -1,0 +1,12 @@
+1. ¿Qué 2 tareas del backlog harías primero?
+- Tarea 1: "Como ciudadano, quiero reportar una incidencia comunitaria en el mapa para visibilizar problemas locales."
+- Tarea 2: "Como coordinador del proyecto, quiero recibir una notificación automática en Telegram cada vez que se registre un nuevo reporte."
+
+2. ¿Por qué son las más importantes?
+Estas tareas constituyen el "Producto Mínimo Viable" (MVP) de la plataforma. La primera permite capturar el valor principal (los reportes de la gente), y la segunda asegura que el equipo de coordinación pueda enterarse al instante de que hay trabajo que revisar, habilitando el flujo básico de comunicación y seguimiento.
+
+3. Definición de "terminado" (Definition of Done - DoD):
+Para mí, una tarea está "terminada" cuando cumple con los siguientes 3 criterios básicos:
+- Funciona: El código cumple el objetivo de la historia de usuario sin errores visuales ni lógicos.
+- Fue probada: Se realizaron pruebas locales exitosas en el entorno de desarrollo simulando el comportamiento del usuario.
+- Quedó registrada en Git: El código limpio, documentado y sin contraseñas o datos sensibles ha sido subido al repositorio en la rama correspondiente.
