@@ -1,0 +1,5 @@
+1. No exponer datos personales: Anonimizar o cifrar la información sensible de los miembros de la comunidad para evitar que caiga en manos de terceros.
+2. Proteger credenciales: Implementar políticas de contraseñas robustas y utilizar métodos de hashing seguros (como bcrypt) para almacenar las claves en la base de datos.
+3. Usar conexiones seguras: Configurar certificados SSL/TLS (HTTPS) para garantizar que toda la comunicación entre los usuarios y el servidor esté completamente cifrada.
+4. Registrar accesos: Mantener logs de auditoría interna sobre quién accede al sistema y qué cambios realiza, facilitando la detección de comportamientos anómalos.
+5. Limitar acceso a información sensible: Aplicar el principio de menor privilegio, asegurando que solo los administradores autorizados tengan acceso a los datos críticos del servidor.
